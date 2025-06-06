@@ -1,0 +1,47 @@
+Whole Matters Of Reaching OOPS-->>
+
+Machine Language-->Assembly language-->Procedural(Structured) programming--> Object-Oriented Programming
+|      
+|
+|
+|
+
+Machine Language: 1. Direct CPU instructions in binary (i.e.: 0,1).
+                  2.It is error-prone, even a one-bit flip can break the program.
+                  3. Difficult to write and maintain. Every detail is manual no abstraction.
+
+Assembly Language: 1.It is hardware tied--> Code changes with CPU architecture. 
+                  2. Scalability: remains limited for large systems.
+
+Procedural programming: The introduction of functions to make a code reusable with conditions (if/else/switch statements, loops)
+            Advantages: Good Readability, Reusability.
+            Limitations: 1. Poor handling of real-world objects; no built-in access control as everything is globally visible.
+                         2. Functions alone cannot enforce consistent interfaces or safe extensions.
+
+Object-Oriented Programming: It models/formats the application as interacting objects mirroring real-world entities.
+            Benefits: Natural Mapping of domain concepts(User, Car, Ride)
+                      Data Encapsulation.
+                      Code reusability and Scalability.
+
+Objects-->(real world entity);
+Classes-->(blueprint defining attributes(fields) and their behaviors(Methods));
+Instances--> Concrete object in memory, created via the class.
+
+
+Pillar 1:
+Abstraction: It hides unnecessary implementation details from the client and exposes only what is essential to use an object functionality.
+
+{Always start with "Virtual " then datatype and functionName;}
+
+Pillar 2: 
+Encapsulation: It bundles the object's data and  the methods that operate on that data into a single unit.
+        Provides data security and limitations of accessing the functions or variables declared under this.
+        Access Modifiers under encapsulation are: private, public, and protected.
+
+    Benefits:
+Robustness: Prevent accidental or malicious misuse of internal state.
+Maintainability: Internal changes do not affect the client side.
+Modularity: The code is organized into self-contained units, ease of testing, and reuse.
+
+
+
