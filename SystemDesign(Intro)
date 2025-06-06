@@ -1,0 +1,15 @@
+what is system Design?
+It is the structure or blueprint for the workflow of how the real world applications works and interact.
+
+system design comprises of : low level design and High level design.
+
+low level design--> designing the structure of an application by identifying classes/objects, their relationship, data flows and how dsa works in them.
+It is a detailed implementation of each component includes: UML diagram, object relationships, functions and data structures.
+
+High level design--> focuses on system architecture not a code structure.
+describes how components interacts(servers,APIs and databases etc.)
+ Includes: system architecture, data flow and technologies to use and scaling stratergies.
+
+
+DSA: Its the brain of the system provide instructions how to interact.
+says how the information should be stored.
