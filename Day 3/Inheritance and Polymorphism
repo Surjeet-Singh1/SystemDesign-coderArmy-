@@ -1,0 +1,46 @@
+Inheritance: Parent-Child relationship
+
+Real world objects often have hierachy like parent --> child. In programming this relation is called Inheritance.
+
+Example: Car hierachy
+    Parent Class:
+        common attributes: Brand, model, isEngineOn,CurrentSpeed
+        common behaviours: startEngine(), stopEngine(), accelerate(),stop()
+
+    Child class:
+ManualCar(inherits Car):
+    cuurentGear,shiftGear()
+ElectricCar(inherit class Car):
+    BatteryPercentage, chargeBattery()
+
+
+Polymorphism:Many forms(one stimulus , different responses)
+Two Real-Life Scenarios:
+
+Scenario l:
+run()
+Different animals (Duck, Human, Tiger) all have a
+behavior.
+Each performs it differently.
+
+Scenario 2:
+Same human run( )s differently based on context (tired vs chased).
+
+Types of Polymorphism:
+Static-- Compile-time(Method Overloading)-->same method, different parameters
+Dynamic-- Runtime(Method Overriding)-->Same method si nature is redefined in child classes.
+
+Combined use of these things in OOPS:
+    Abstraction (Hiding implementation details)
+    Encapsulation (Private/protected members)
+    Inheritance (Manual/Electric inherit Car)
+    Polymorphism (Method overriding & overloading)
+
+
+
+Some concepts:
+operator overloading-->Operator overloading is a feature that allows developers to *define or redefine how
+operators (like +, -
+=) behave for user-defined types (like classes or objects).
+
+protected-->Access Modifier that can only access in child class
